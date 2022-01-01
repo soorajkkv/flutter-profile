@@ -410,12 +410,14 @@ class ProfileScreen extends StatelessWidget {
                   children: [
                     Text(
                       'Phone Number',
-                      style: TextStyle(fontSize: 12.0),
+                      style: TextStyle(
+                            fontSize: 12.0, color: basicDetailsFontColor),
                     ),
                     Text(
                       '91 6456584156',
                       style: TextStyle(
                           fontSize: 12.0,
+                          color: basicDetailsFontColor,
                           fontFamily:'Archivo'),
                     ),
                   ],
